@@ -1,6 +1,6 @@
-from pyspark import SparkContext, SparkConf
+from pyspark import SparkContext
 
-sc = SparkContext(conf=SparkConf())
+sc = SparkContext()
 
 states=[
 	("AL","Alabama"),
