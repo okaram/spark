@@ -7,7 +7,7 @@ from pyspark import SparkContext, SparkConf
 sc = SparkContext()
 
 # textfile gives us lines, now we call Person's parse method
-people=sc.textFile("../data/people.txt").map(Person().parse)
+people=sc.textFile("../../data/people.txt").map(Person().parse)
 
 # find number of males and number of females
 # first get tuples like: ('M',1),('F',1) ... then reduce by key

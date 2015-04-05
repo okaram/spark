@@ -8,7 +8,7 @@ simple.reduceByKey(lambda x,y: x+y).collect()
 
 # textfile gives us lines, splitting makes tuples
 # 'schema' is name | gender | age | favorite language
-people=sc.textFile("../data/people.txt").map(lambda x: x.split('\t'))
+people=sc.textFile("../../data/people.txt").map(lambda x: x.split('\t'))
 
 # find number of males and number of females
 # first get tuples like: ('M',1),('F',1) ... then reduce by key

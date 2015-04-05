@@ -7,7 +7,7 @@ sqlCtx = SQLContext(sc)
 
 # you can read from json files (one object in each line, need quotes around field names)
 # you get a datatable which is a kind of RDD, with schema info, and each tuple is of class Row
-people=sqlCtx.jsonFile("../data/people1.json")
+people=sqlCtx.jsonFile("../../data/people1.json")
 
 # the show method is similar to collect, but displays nicely
 people.show()
