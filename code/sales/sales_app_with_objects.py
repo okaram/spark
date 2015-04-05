@@ -7,7 +7,7 @@ master="local"
 conf = SparkConf().setAppName(appName)
 sc = SparkContext(conf=conf)
 
-base_path="/home/curri/projects/spark/sales-data/"
+base_path="../../data/sales/"
 output_path=sys.argv[1]
 
 #load stores,products,sales

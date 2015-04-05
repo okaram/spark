@@ -5,7 +5,7 @@ master="local"
 conf = SparkConf().setAppName(appName)#.setMaster(master)
 sc = SparkContext(conf=conf)
 
-base_path="/home/curri/projects/spark/sales-data/"
+base_path="../../data/sales/"
 output_path=sys.argv[1]#"/home/curri/projects/spark/out/"
 # load sales
 sales=sc.textFile(base_path+"sales_*.txt").map(lambda x:x.split('\t'))
