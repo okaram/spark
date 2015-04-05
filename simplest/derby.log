@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Apr 04 17:12:55 PDT 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-014c-86ec-4dbe-000019c1aa70 
+on database directory /home/curri/projects/spark/simplest/metastore_db with class loader sun.misc.Launcher$AppClassLoader@647e05 
+Loaded from file:/home/curri/spark-1.3.0-bin-hadoop2.4/lib/spark-assembly-1.3.0-hadoop2.4.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_31-b13
+user.dir=/home/curri/projects/spark/simplest
+os.name=Linux
+os.arch=i386
+os.version=3.16.0-30-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

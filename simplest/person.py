@@ -9,3 +9,6 @@ class Person:
 
 	def __repr__(self):
 		return "Person( %s, gender=%s, %d years old, likes %s)"%(self.name,self.gender,self.age,self.favorite_language)
+
+	def to_json(self):
+		return '{ "name":"%s", "gender":"%s", "age":%d, "favorite_language":"%s"}'%(self.name,self.gender,self.age,self.favorite_language)
