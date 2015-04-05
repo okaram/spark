@@ -8,9 +8,7 @@ sc = SparkContext(conf=conf)
 base_path="../../data/sales/"
 output_path=sys.argv[1]#"/home/curri/projects/spark/out/"
 # load sales
-sales=sc.textFile(base_path+"sales_*.txt").map(lambda x:x.split('\t'))
-# sales structure:
-# Day | Store | Product | Qty
+sales=sc.textFile(base_path+"sales_*.txt").map(lambda x:x.split('\t')) # Day | Store | Product | Qty
 
 #load stores and products
 stores=sc.textFile(base_path+"stores.txt").map(lambda x:x.split('\t')) # id | name

@@ -1,2 +1,4 @@
 *.pyc
 *~
+derby.log
+metastore_db/*

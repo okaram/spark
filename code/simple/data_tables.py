@@ -33,3 +33,4 @@ people.registerTempTable("people")
 sqlCtx.sql("select name, age FROM people").show()
 
 sqlCtx.sql("select gender,avg(age) AS AvgAge FROM people GROUP BY gender").show()
+
